@@ -1,4 +1,2 @@
 #!/bin/bash
-for i in $(groups); do  
-    echo "$i"
-done
+$(groups)
